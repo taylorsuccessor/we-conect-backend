@@ -17,6 +17,7 @@ This is a sample Laravel 11 project. It provides a robust framework for web appl
 - [Running Tests](#running-tests)
 - [Algorithm Complexity - Fibonacci](#Algorithm)
 - [PL/SQL](#PL/SQL)
+- [Communication](#Communication)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -26,21 +27,21 @@ This is a sample Laravel 11 project. It provides a robust framework for web appl
 
   ```
   https://frontend-tech-test.livaatverse.com
-  
+
 - API's and Swagger documentations.
-  
+
   ```
   http://tech-test-server.livaatverse.com/api/documentation
 
-  
+
 - Front-end Repository on github
-  
+
   ```
   https://tech-test-server.livaatverse.com/api/documentation
 
-  
+
 - Lambda function using vapor to deploy Laravel
-  
+
   ```
   https://tech-test.livaatverse.com/api/documentation
 
@@ -79,7 +80,7 @@ This is a sample Laravel 11 project. It provides a robust framework for web appl
 
    ```bash
    make docker-build
-   
+
 also check
 
     make docker-migrate
@@ -162,7 +163,7 @@ then we can cut it,
 max_fibonacci[0: fibonacci_indexes[number]]
 am using python for simpler syntax.
 
-    
+
     function fibonacci($n) {
         $fib = [0, 1];
         for ($i = 2; $i <= $n; $i++) {
@@ -176,7 +177,7 @@ am using python for simpler syntax.
 
 I don't know if we should implement this in laravel or just add it as script.
 
-    
+
     CREATE OR REPLACE PROCEDURE GetArticleById(
         article_id IN NUMBER,
         article_title OUT VARCHAR2,
@@ -215,5 +216,3 @@ To run the tests, execute:
 
 ## Contributing
 Thank you for considering contributing to this project! Please fork the repository and create a pull request with your changes.
-
-
