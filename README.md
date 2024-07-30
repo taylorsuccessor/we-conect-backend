@@ -37,7 +37,7 @@ This is a sample Laravel 11 project. It provides a robust framework for web appl
 - Front-end Repository on github
 
   ```
-  https://tech-test-server.livaatverse.com/api/documentation
+  https://github.com/taylorsuccessor/we-conect-frontend
 
 
 - Lambda function using vapor to deploy Laravel
